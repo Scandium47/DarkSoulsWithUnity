@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1988e0cbd72fc0e4a830f124bb59519e, type: 3}
+  m_Name: Fire Buff Weapon Effect
+  m_EditorClassIdentifier: 
+  effectID: 0
+  buffClass: 1
+  lengthOfBuff: 60
+  timeRemainingOnBuff: 0
+  isRightHandedBuff: 0
+  buffAmbientSound: {fileID: 8300000, guid: 30c943f43a3efbb4dbbe3d8931e240d9, type: 3}
+  ambientSoundVolume: 0.3
+  buffBaseDamagePercentageMultiplier: 15
+  buffPoiseDamage: 0
+  buffBasePoiseDamagePercentageMultiplier: 15
+  buffHasStarted: 0

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0727ca588d5da43be607875321475e, type: 3}
+  m_Name: Enemy Bow
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: ec311f6cacfa9f549a722fe3e3baaed5, type: 3}
+  itemName: Bow
+  itemID: 10009
+  modelPrefab: {fileID: 3184692814675483231, guid: 997d3580c641d4046916f00a6d2bc0a4, type: 3}
+  isUnarmed: 0
+  weaponController: {fileID: 22100000, guid: 0420157da2b2d454d91fbfe25ecaad6e, type: 2}
+  weaponType: 7
+  physicalDamage: 25
+  magicDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  darknessDamage: 0
+  lightAttackDamageModifier: 0
+  lightAttackComboDamageModifier: 0
+  runningAttackDamageModifier: 0
+  heavyAttackDamageModifier: 0
+  heavyAttackComboDamageModifier: 0
+  jumpingAttackDamageModifier: 0
+  criticalDamageMuiltiplier: 4
+  guardBreakModifier: 1
+  poiseBreak: 25
+  offensivePoiseBonus: 10
+  physicalBlockingDamageAbsorption: 0
+  magicBlockingDamageAbsorption: 0
+  fireBlockingDamageAbsorption: 0
+  lightningBlockingDamageAbsorption: 0
+  darknessBlockingDamageAbsorption: 0
+  stability: 67
+  baseStaminaCost: 0
+  lightAttackStaminaMultiplier: 0
+  lightAttackComboStaminaMultiplier: 0
+  runningAttackStaminaMultiplier: 0
+  heavyAttackStaminaMultiplier: 0
+  heavyAttackComboStaminaMultiplier: 0
+  jumpingAttackStaminaMultiplier: 0
+  oh_hold_RB_Action: {fileID: 11400000, guid: 8dd1fe66915797444bb4f4575cbf52c2, type: 2}
+  oh_tap_RB_Action: {fileID: 11400000, guid: 1be4f9492034bbf4392f1226c3136ada, type: 2}
+  oh_tap_RB_Critical_Action: {fileID: 0}
+  oh_tap_LB_Action: {fileID: 0}
+  oh_hold_LB_Action: {fileID: 11400000, guid: a54769bd6e8909543b1bc68491496c05, type: 2}
+  oh_tap_RT_Action: {fileID: 0}
+  oh_hold_RT_Action: {fileID: 0}
+  oh_tap_LT_Action: {fileID: 0}
+  oh_hold_LT_Action: {fileID: 0}
+  th_hold_RB_Action: {fileID: 11400000, guid: 8dd1fe66915797444bb4f4575cbf52c2, type: 2}
+  th_tap_RB_Action: {fileID: 11400000, guid: 1be4f9492034bbf4392f1226c3136ada, type: 2}
+  th_tap_LB_Action: {fileID: 0}
+  th_hold_LB_Action: {fileID: 11400000, guid: a54769bd6e8909543b1bc68491496c05, type: 2}
+  th_tap_RT_Action: {fileID: 0}
+  th_hold_RT_Action: {fileID: 0}
+  th_tap_LT_Action: {fileID: 0}
+  th_hold_LT_Action: {fileID: 0}
+  weaponWhooshes: []
+  blockingNoises: []
